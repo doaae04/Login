@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  overflow: hidden; 
+}
+
+form {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+fieldset{
+   width: 200px;
+   height: 300px;
+   margin: 70px auto;
+   color: white;
+   border: none;
+   border-top-right-radius: 20px;
+   border-bottom-left-radius: 20px;
+   font-size: 50px;
+   text-align: center;
+   position: relative;
+   text-transform: capitalize;
+   font-family: "Rubik Gemstones", system-ui;
+   font-weight: 400;
+   font-style: normal;
+   top: -550px;
+   left: -20px;
+}
+
+.div1{
+   width: 300px;
+   margin: 20px auto;
+   line-height: 50px;
+}
+
+.text{
+   width: 300px;
+   height: 30px;
+   border: 2px solid rgb(101, 63, 138);
+   color: rgb(233, 233, 237);
+   background-color: transparent;
+   border-radius:30px ;
+   text-align: center;
+}
+
+.password{
+   width: 300px;
+   height: 30px;
+   border: 2px solid rgb(101, 63, 138);
+   color: rgb(233, 233, 237);
+   background-color: transparent;
+   border-radius:30px ;
+   text-align: center;
+}
+
+.ok{
+   width: 150px;
+   height: 30px;
+   border: 2px solid rgb(101, 63, 138);
+   color: rgb(233, 233, 237);
+   background-color: rgb(47, 34, 72);
+   border-radius:30px ;
+   text-align: center;
+   text-transform: capitalize;
+}
+
+img{
+   position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+}
